@@ -1,0 +1,154 @@
+/* 
+    coder : Muhsin a nissar
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.15rem;
+}
+
+.wrapper{
+    width: 80%;
+    padding: 1%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.clear-both{
+    clear: both;
+}
+/*=====================================================
+    Tables 
+======================================================*/
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+/* ====================================================
+    Sucess / Error Message
+===================================================== */
+.sucess{ color: rgb(4,170,109);}
+.error{  color: red;}
+
+
+/* btns */
+.btn-primary{
+    background-color: #1e90ff;
+    color: white;
+    padding: 1%;
+    border-radius: 5%;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+.btn-secondary{
+    background-color: #7bed9f;
+    color: black;
+    padding: 1%;
+    border-radius: 5%;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+.btn-danger{
+    background-color: #ff6b81;
+    color: white;
+    padding: 1%;
+    border-radius: 5%;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+
+
+
+
+/* Css for Menu */
+.menu  ul li{
+    list-style: none;
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    color: rgb(255,107,129);
+    font-weight: bold;
+}
+.menu ul li a:hover{
+    color: rgb(255,71,87);
+}
+
+
+/* Css for main */
+.main{
+    margin: 1% 0;
+    background-color: rgb(236,236,236);   
+    padding: 2% 0;
+}
+.col-4{
+    width: 20%;
+    background-color: white;
+    margin: 1%;
+    padding: 1%;
+    /* display: inline-block; */
+    float: left;
+}
+/* Css for main end */
+
+
+/* Manage-admin.css */
+
+/* Manage-admin.css */
+
+
+
+/* ==========================================================
+    LOGIN                                                  */
+    .login{
+        border: 2px solid black;
+        width: 30%;
+        margin: 10% auto;
+        padding: 2%;
+    }
+
+
+/*  LOGIN                                                  
+ ========================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========================================================================
+ FOOTER 
+============================================================================*/
+.footer{
+    margin-top: 200px;
+    background-color: rgb(255,71,87);
+    color: white;
+}
